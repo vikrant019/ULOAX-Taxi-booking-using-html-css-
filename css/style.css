@@ -396,3 +396,8 @@ p {
     font-weight: bold;
     border-radius: 4px;
 }
+
+#copywrite {
+    text-align: center;
+    padding: 30px;
+}
