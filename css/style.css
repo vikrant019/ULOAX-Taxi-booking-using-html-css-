@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: #1a1a1a;
+    padding: 25px;
+    z-index: 1;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navtab ul li {
+    list-style-type: none;
+    font-size: 19px;
+}
+
+.navtab a {
+    padding-bottom: 3px;
+    text-decoration: none;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+.navtab a:hover {
+    border-bottom: 2px solid yellow;
+    color: yellow;
+}
+
+nav {
+    display: inline;
+    align-items: center;
+    gap: 15px;
+    /* justify-content: space-evenly; */
+}
+
+.carimg {
+    width: 40%;
+}
+
+.bookingForm form {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+.bookingForm form p {
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+}
+
+.bookingForm form input {
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(180, 179, 179, 0.582);
+    padding: 10px;
+    margin: 8px;
+    width: 450px;
+    outline: none;
+    font-size: 16px;
+}
+
+.ptitile {
+    color: white;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.bookcontact {
+    background-color: #ffc107;
+    padding: 20px;
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.booknow .p1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.booknow .p2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+#home {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-around;
+    height: 85vh;
+}
+
+.carimage img {
+    width: 80%;
+}
+
+.searchbtn {
+    padding: 15px;
+    margin: 10px;
+    width: 60px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(77, 75, 75) !important;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.searchbtn:hover {
+    background-color: #ffc107 !important;
+}
+
+#taxi {
+    margin: 70px 0;
+    background-color: #1a1a1a;
+    height: 100vh;
+    padding: 30px;
+}
+
+.cars img {
+    width: 65%;
+    padding: 20px;
+}
+
+cars {
+    padding-top: 40px;
+}
+
+.carbody {
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    background-color: rgb(236, 234, 234);
+    width: 30%;
+    margin: 20px 20px;
+    padding: 20px;
+}
+
+.cars ::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#taxi h1 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: 3.5rem;
+}
+
+#taxi h1 span {
+    color: #ffc107;
+}
+
+.carno {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: #f8ca11;
+    width: 70px;
+    height: 50px;
+    position: relative;
+    top: -50px;
+    left: 120px;
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carbody h2,
+p {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.carbody p {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image img {
+    display: inline;
+    background-color: #1a1a1a;
+}
+
+.booknow {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    align-items: left;
+}
+
+.description h1 {
+    align-items: left;
+    color: #2b3436;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.description p {
+    align-items: left;
+}
+
+.description a {
+    width: 100px;
+    text-decoration: none;
+    background-color: #f8ca11;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    margin-top: 30px;
+}
+
+#booking {
+    padding: 0 5rem;
+}
+
+.booking-btn {
+    padding-top: 45px;
+}
+
+.long-text {
+    color: #2b3436;
+    padding-top: 45px;
+    line-height: 29px;
+}
+
+.booking-title {
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-underline-offset: 13px;
+}
+
+.booking2 .booknow {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4rem;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.booking2 {
+    padding: 20px 0;
+}
+
+#contact-us {
+    height: 100vh;
+}
+
+.booking2 h1,
+.booking2 .booking-btn {
+    text-align: right;
+}
+
+.booking2 .long-text {
+    text-align: right;
+}
+
+.contact-img .car-img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.contact-img .map-img {
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    padding-top: 70px;
+    right: 40px;
+}
+
+#footer {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    background-color: #292828;
+    padding: 60px;
+    color: white;
+}
+
+#footer h2 {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.address {
+    width: 25%;
+}
+
+#footer .address p {
+    color: #ebebeb;
+    font-size: 14px;
+    line-height: 25px;
+    margin-left: 0;
+    text-align: left;
+}
+
+.links a {
+    color: #ebebeb;
+    line-height: 25px;
+    text-decoration: none;
+    transition: all 0.8s ease-in-out;
+}
+
+.links a:hover {
+    color: #ffc107;
+}
+
+#footer .follow-us a,
+.follow-us li {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    vertical-align: center;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 5px;
+    vertical-align: center;
+    transition: all 0.8s ease-in-out;
+}
+
+.follow-us li {
+    /* line-height: 35px; */
+    padding: 5px;
+}
+
+.follow-us li img {
+    text-align: center;
+    vertical-align: center;
+}
+
+#footer .follow-us a:hover {
+    color: #ffc107;
+}
+
+.newsletter input {
+    margin: 20px 0 25px 0;
+    padding: 13px 8px;
+    color: gray;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+}
+
+.newsletter a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px auto;
+    background-color: #fccf1ada;
+    padding: 12px;
+    font-size: 18px;
+    width: 38px;
+    font-weight: bold;
+    border-radius: 4px;
+}
